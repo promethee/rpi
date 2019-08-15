@@ -1,0 +1,4 @@
+#/bin/sh
+cd ~/
+ssh pirate@$1.local 'mkdir -p .ssh'
+cat .ssh/id_rsa.pub | ssh pirate@$1.local 'cat >> .ssh/authorized_keys'

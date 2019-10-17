@@ -4,4 +4,4 @@ source ~/.bashrc
 nvm install --lts
 source ~/.bashrc
 npm i -g yarn
-yarn global add jest eslint
+yarn global add jest eslint micro micro-dev serve
